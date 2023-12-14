@@ -744,6 +744,7 @@ __Правильно__
 ```bsl
 -- вариант 1 (правильно)
 SELECT *
+FROM facebook
 LEFT JOIN linkedin
 ON facebook.name = linkedin.name
 WHERE facebook.city = 'SF'
