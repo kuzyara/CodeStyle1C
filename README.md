@@ -760,11 +760,9 @@ Keep the context separate between joining the tables and filtering the joined ta
 * Filter data in the WHERE clause instead of the JOIN to ensure it is correct and readable
 * Different SQL languages may have different query plans based on filtering in the ON clause vs the WHERE clause, so test the performance on your database
 
-Подробнее смотри: https://dataschool.com/how-to-teach-people-sql/difference-between-where-and-on-in-sql/
-
-Более того, если соединение отлично от внутреннего - результаты запросов при смешивании контекстов будут отличаться. При левом соединении условие фильтрации в секцию JOIN помещать нельзя.
-
-Источник: https://stackoverflow.com/questions/354070/sql-join-where-clause-vs-on-clause
+Подробнее смотри: 
+* https://dataschool.com/how-to-teach-people-sql/difference-between-where-and-on-in-sql/
+* https://stackoverflow.com/questions/354070/sql-join-where-clause-vs-on-clause
 
 ## 13. Экспортные процедуры/функции должны содержать описание
 Обязательного комментирования требуют процедуры и функции входящие в  [программный интерфейс модулей](https://its.1c.ru/db/v8std/content/455/hdoc)  - такие процедуры и функции предназначены для использования в других функциональных подсистемах (или в других приложениях), за которые могут отвечать другие разработчики, поэтому они должны быть хорошо документированы. 
