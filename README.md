@@ -1202,5 +1202,6 @@ todo:
 * п.1 - вынести в специфичные для git
 * п.2 - вынести в специфичные для RMQ
 * п.7 - вынести в специфичные для ADD
+* добавить про исключения из https://www.youtube.com/channel/UCO1Vs4ZvpxC7Cke2BIFFDuA/community?lb=UgkxnpO7oPj6uTYlNIFpZ0d8Ar5-aONy0n6F
 
 Для ознакомления ещё правила: https://nullarity.com/code/codestyle/
