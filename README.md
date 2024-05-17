@@ -884,6 +884,8 @@ FROM facebook
 LEFT JOIN linkedin
 ON facebook.name = linkedin.name
 WHERE facebook.city = 'SF'
+```
+```bsl
 -- вариант 2 (неправильно)
 SELECT *
 FROM facebook
