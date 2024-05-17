@@ -116,7 +116,8 @@ __Внимание:__ следует избегать закомментиров
 
  <details>
   <summary>Цитата из книги "Чистый код"</summary>
-![image](https://github.com/kuzyara/CodeStyle1C/assets/2604430/b9c9bb06-46b5-42c7-ae30-113164a31d5c)
+![image](images/martin_fauler_17.jpg "Title")
+	 
 </details>
 
 ## 2. [только для RMQ] Сериализация ссылок для обмена через json
