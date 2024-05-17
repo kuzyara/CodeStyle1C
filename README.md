@@ -902,6 +902,13 @@ Keep the context separate between joining the tables and filtering the joined ta
 * Filter data in the WHERE clause instead of the JOIN to ensure it is correct and readable
 * Different SQL languages may have different query plans based on filtering in the ON clause vs the WHERE clause, so test the performance on your database
 
+Разделяйте контекст между объединением и фильтрацией. Это более читабельно, уменьшаеат вероятность внести ошибку и одинаково по производительности.
+* Объединяйте данные в секции ПО
+* Фильтруйте данные в секции ГДЕ
+* Пишите явные соединения, чтобы сделать запрос более читабельным
+* Фильтруйте данные в предложении WHERE вместо JOIN, чтобы гарантировать их корректность и читаемость.
+* Различные языки SQL могут иметь разные планы запросов, основанные на фильтрации в предложении ON и предложении WHERE, поэтому проверьте производительность в своей базе данных.
+
 Подробнее смотри: 
 * https://dataschool.com/how-to-teach-people-sql/difference-between-where-and-on-in-sql/
 * https://stackoverflow.com/questions/354070/sql-join-where-clause-vs-on-clause
