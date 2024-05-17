@@ -1316,3 +1316,5 @@ todo:
 * добавить про исключения из https://www.youtube.com/channel/UCO1Vs4ZvpxC7Cke2BIFFDuA/community?lb=UgkxnpO7oPj6uTYlNIFpZ0d8Ar5-aONy0n6F
 
 Для ознакомления ещё правила: https://nullarity.com/code/codestyle/
+
+Смотри так же: https://github.com/skyksandr/1c-styleguide
