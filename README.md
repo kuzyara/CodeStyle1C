@@ -740,6 +740,19 @@ __Правильно__
 
     КонецЕсли;
 ```
+Этот прием позволит избежать [flattering arrow](https://blog.codinghorror.com/flattening-arrow-code/)
+```
+if
+  if
+    if
+      if
+        do something // <- code smell
+      endif
+    endif
+  endif
+endif
+```
+
 ## 10. Чрезмерный уровень вложенности конструкций
 Количество вложенных конструкций "Если", "Для", "Пока" и "Попытка" не должно превышать 4
 
