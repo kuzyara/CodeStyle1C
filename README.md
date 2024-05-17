@@ -877,16 +877,19 @@ endif
 Не нужно писать условия фильтрации в секции ON и не нужно писать условия соединения в секции WHERE
 
 Сравните читаемость двух вариантов
-```bsl
--- вариант 1 (правильно)
+
+__Правильно__
+```sql
+-- вариант 1
 SELECT *
 FROM facebook
 LEFT JOIN linkedin
 ON facebook.name = linkedin.name
 WHERE facebook.city = 'SF'
 ```
-```bsl
--- вариант 2 (неправильно)
+__Неправильно__
+```sql
+-- вариант 2
 SELECT *
 FROM facebook
 LEFT JOIN linkedin
