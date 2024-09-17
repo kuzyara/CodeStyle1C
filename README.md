@@ -1327,6 +1327,8 @@ todo:
 
 Смотри так же: https://github.com/skyksandr/1c-styleguide
 
+"Чистый код в 1С" или как прокачать свой код? https://infostart.ru/1c/articles/2188438/#message3099561
+
 ## Черновики
 ### "не могу выйти из функции"
 Не усложняйте отладку:
