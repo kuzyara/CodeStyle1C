@@ -938,13 +938,6 @@ FROM facebook
 LEFT JOIN linkedin
 ON facebook.name = linkedin.name AND facebook.city = 'SF'
 ```
-Keep the context separate between joining the tables and filtering the joined table. It is the most readable, least likely to be inaccurate, and should not be less performant.
-* JOIN data in ON
-* Filter data in WHERE
-* Write explicit JOINs to make your Query more readable
-* Filter data in the WHERE clause instead of the JOIN to ensure it is correct and readable
-* Different SQL languages may have different query plans based on filtering in the ON clause vs the WHERE clause, so test the performance on your database
-
 Разделяйте контекст между объединением и фильтрацией. Это более читабельно, уменьшаеат вероятность внести ошибку и одинаково по производительности.
 * Объединяйте данные в секции ПО
 * Фильтруйте данные в секции ГДЕ
