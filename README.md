@@ -1364,6 +1364,8 @@ todo:
 
 Для ознакомления ещё правила: https://nullarity.com/code/codestyle/
 
+Пример внутренних правил pvs-studio для c++: [pvs_c++_styleguides.pdf](images/pvs_c%2B%2B_styleguides.pdf)
+
 Смотри так же: https://github.com/skyksandr/1c-styleguide
 
 "Чистый код в 1С" или как прокачать свой код? https://infostart.ru/1c/articles/2188438/#message3099561
