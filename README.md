@@ -645,6 +645,7 @@ __Правильно:__ `Формат(Число, "ЧГ=0")`. __Неправил
 * https://1c-syntax.github.io/bsl-language-server/diagnostics/TooManyReturns/ 
 * [Почему ранний возврат из функций так важен?](https://habr.com/ru/post/348074/)
 * Также известен как: [Replace Nested Conditional with Guard Clauses](https://refactoring.guru/ru/replace-nested-conditional-with-guard-clauses)
+
 Видео:
 * https://www.youtube.com/shorts/xtmdJoYhGhI
 * https://www.youtube.com/shorts/Zmx0Ou5TNJs
